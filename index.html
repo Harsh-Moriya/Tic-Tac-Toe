@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="options">
+        <div class="opt-centre">
+            <h2>Choose</h2>
+            <div class="opt-cont">
+                <button class="btn x">X</button>
+                <button class="btn o">O</button>
+            </div>
+            <div class="opt-cont">
+                <button class="btn you">You first</button>
+                <button class="btn bot">Bot first</button>
+            </div>
+            <div class="opt-cont">
+                <button class="btn start">Start</button>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper">
+        <div class="result"><h1>Let's Play</h1></div>
+        <section class="game-cont">
+            <!-- row 1 -->
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <!-- row 2 -->
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <!-- row 3 -->
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </section>
+        <button class="btn choose">Choose</button>
+        <button class="btn reset">Reset</button>
+        <button class="btn reset-all">Reset All</button>
+        <table class="table">
+            <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <th><span class="wins">0</span></th>
+                <th><span class="losses">0</span></th>
+                <th><span class="draws">0</span></th>
+            </tr>
+        </table>
+    </section>
+
+<script src="main.js"></script>    
+</body>
+</html>
